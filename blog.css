@@ -23,7 +23,20 @@ li a:hover {
   background-color: #606060;
 }
 
-.resume {
+/* navigation bar */
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.resume_pdf {
   width: 800px;
   margin:auto auto auto auto;
 }
