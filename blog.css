@@ -5,13 +5,21 @@ html, body {
   overflow-y: overlay;
 }
 
+#header {
+  overflow-x: hidden;
+}
+
 /* menu */
+#menu {
+  background: #808080;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #808080;
+  background: #808080;
 }
 
 li {
@@ -19,6 +27,7 @@ li {
 }
 
 li a {
+  font-size: 120%;
   display: block;
   color: white;
   text-align: center;
@@ -31,9 +40,6 @@ li a:hover {
   margin: auto auto auto auto;
 }
 
-p {
-  
-}
 
 /* navigation bar */
 nav {
@@ -50,19 +56,22 @@ nav ul {
 }
 
 .resume_pdf {
-  width: 800px;
   margin: auto auto auto auto;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 #page {
   margin:0 auto;
   min-height: 100%;
-  width: 1024px;
   position: relative;
 }
 
 #header {
-  
+
 }
 
 #container {

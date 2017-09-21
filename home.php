@@ -8,7 +8,7 @@
   <div id="page">
     <div id="header"><?php include("./header.html"); ?></div>
 
-    <div id="container">
+    <div class="container">
       <div id="sidebar"><?php include("./navigation.html"); ?></div>
 
       <div id="content">
